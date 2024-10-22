@@ -1,0 +1,21 @@
+.first{
+    font-size: 24px;
+    color: #1e1e27;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.second{
+   
+    color: #fe4c50;
+     
+}
+.bg{
+    background-image: url(slider_1.jpg);
+}
+.start{
+    background: #1e1e27;
+}
+.sk{
+    color: #b5aec4;
+}
