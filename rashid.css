@@ -61,3 +61,19 @@ body{
     background-color: #ece9f4;
     
 }
+.ski{
+    background-color: #ece9f4; 
+}
+.btn-red {
+    background-color: red;
+    border-radius: 0px;
+    color: white;
+}
+.btn-red:hover {
+    background-color: rgb(203, 19, 19);
+    color: white;
+}
+.uk{
+    width: 250px;
+    border-radius: 0px;
+}
