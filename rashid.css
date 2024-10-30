@@ -1,3 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
 .first{
     font-size: 24px;
     color: #1e1e27;
@@ -18,4 +24,40 @@
 }
 .sk{
     color: #b5aec4;
+}
+#header{
+    background-image: url(./slider_1.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+.mg{
+    margin-top:213px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 29px;
+}
+.lk{
+    font:bold;
+}
+.all{
+   background-color :#ebe8f0;;
+}
+.hide-btn{
+    opacity: 0  ;
+    border-radius: 0px;
+    transition: all 0.3s ease;
+}
+.show-btn:hover .hide-btn{
+    opacity: 1;
+}
+
+.show-btn:hover{
+    box-shadow: 1px 1px 3px gray;
+    transform: scale(1.05);
+}
+.ui{
+    background-color: #ece9f4;
+    
 }
