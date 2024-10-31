@@ -83,3 +83,12 @@ body{
 .skm{
     width:250px
 }
+
+.child-div{
+    opacity: 0;
+transition: 3s;
+}
+
+.main-img:hover .child-div{
+opacity: 0.75;
+}
