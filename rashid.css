@@ -48,9 +48,12 @@ body{
     opacity: 0  ;
     border-radius: 0px;
     transition: all 0.3s ease;
+    transition: 3s;
+    
 }
 .show-btn:hover .hide-btn{
     opacity: 1;
+    transition: 2s;
 }
 
 .show-btn:hover{
@@ -76,4 +79,7 @@ body{
 .uk{
     width: 250px;
     border-radius: 0px;
+}
+.skm{
+    width:250px
 }
